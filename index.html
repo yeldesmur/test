@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (color)" href="style.css">
+    <link rel="stylesheet" href="breakpoints.css">
+    <link href="шрифт/Gilroy-SemiBold.ttf">
+    <title>Pool - строительство бассейнов</title>
+</head>
+<body> 
+    <container>
+        <!-- 1st section -->
+        <main class="section_header">
+            <div class="header">
+                <div class="navigation">
+                    <ul>
+                        <li>
+                            <a href="#">Главная</a>
+                            <img src="imgs/волнистая.png" alt="">
+                        </li>
+                        <li>
+                            <a href="#">Товары</a>
+                            <img src="imgs/волнистая.png" alt="">
+                        </li>
+                        
+                        <li>
+                            <a href="#">Контакты</a>
+                            <img src="imgs/волнистая.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img src="imgs/logo.png" alt="">
+                </div>
+                <div class="phones">
+                    <a href="">+7 727 368 83 56</a>
+                    <a href="">+7 771 964 36 50</a>
+                </div>
+            </div>
+            <div class="header_banner">
+                <h1>Строительство бассейнов</h1>
+                <p>Полный спект работ: от проектирования и сдачи “под ключ” до обслуживания 
+                    или реконструкции вашего бассейна, а также большой выбор товаров</p>
+                <button class="btn btn_orange">Оставить заявку</button>
+            </div>
+            <img src="imgs/сверху2.png" >
+            <img src="imgs/сверху1.png" >
+        </main>
+
+        <!-- 2nd section -->
+        <main class="section_our_work">
+            <h1>наши работы</h1>
+            <img class="wave" src="imgs/волнистая.png">
+            <input type="radio" name="slide_changer" value="first" id="first" checked />
+            <label class="radio" for="first">
+            </label>
+            <input type="radio" name="slide_changer" value="second" id="second" />
+            <label class="radio" for="second">
+            </label>
+            <input type="radio" name="slide_changer" value="third" id="third" />
+            <label class="radio" for="third">  
+            </label>
+            <div id="slider">
+                <div id="slider-inner">
+                    <div id="first-slide" class="slide">
+                        <label for="third"></label>
+                        <label for="second"></label>
+                    </div>
+                    <div id="second-slide" class="slide">
+                        <label for="first"></label>
+                        <label for="third"></label>
+                    </div>
+                    <div id="third-slide" class="slide">
+                        <label for="second"></label>
+                        <label for="first"></label>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <wave style="position: relative; bottom: -10px;">
+            <!-- <img src="imgs/2_сверху1.png" alt=""> -->
+            <img src="imgs/2_сверху2.png" style="width: 100%">
+        </wave>
+
+        <!-- 3rd section -->
+        <main class="section_price">
+            <div class="price_word">
+                <h1>Сколько будет стоить бассейн?<h1>
+                <img class="wave" src="imgs/волнистая.png">
+                <p>Ответьте на несколько вопросов и наши специалисты отправят вам смету в течении <blue style="color: #00497c;">1 рабочего дня</blue></p>
+            </div>
+            <div id="qw">
+                <div class="form_container">
+                    <form id="spool_price" action="">
+                        <div class="price_form">
+                            <div>
+                                <label for="spool_type">Отделка чаши:</label>
+                                <select name="spool_type" id="spool_type">
+                                    <option value="Polypropilen">Полипропилен</option>
+                                    <option value="Polyburtilen">Полибуртилен</option>
+                                    <option value="Polycarbonat">Поликарбонат</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="water_heater">Нагрев воды:</label>
+                                <select name="water_heater" id="water_heater">
+                                    <option value="Polypropilen">Да</option>
+                                    <option value="Polyburtilen" checked>Нет</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="spool_size">Размер бассейна:</label>
+                                <input id="spool_size" for="spool_size" type="range" step="1" min="1" max="10" value="3">
+                                <p>7х3<sup><small>м</small></sup></p>
+                            </div>
+                        </div>
+                        <div>
+                            <input class="btn btn_orange" id="submit_query" type="submit" value="Оставить заявку">
+                        </div>
+                        <img src="imgs/form_tail.png">
+                    </form>
+                </div>
+                <div id="pool_img">
+                </div>
+            </div>
+        </main>
+
+        <wave>
+            <img src="imgs/3_сверху.png" style="width: 100%;">
+        </wave>
+
+        <!-- 4th section -->
+        <main class="section_products">
+            <div class="products_word">
+                <h1>товары для бассейна</h1>
+                <img class="wave" src="imgs/волнистая.png">
+            </div>
+            <div class="product_container">
+                <div id="product_category">
+                    <input type="radio" name="product" value="all" id="all" checked>
+                    <label for="all">Все</label>
+                    <input type="radio" name="product" value="pumps" id="pumps">
+                    <label for="pumps">Насосы</label>
+                    <input type="radio" name="product" value="heaters" id="heaters">
+                    <label for="heaters">Нагреватели</label>
+                </div>
+                <div id="product_slider">
+                    <input type="radio" name="slide_changer2" value="product_list_first" id="product_list_first" checked />
+                    <label class="radio" for="product_list_first">
+                    </label>
+                    <input type="radio" name="slide_changer2" value="product_list_second" id="product_list_second" />
+                    <label class="radio" for="product_list_second">
+                    </label>
+                    <input type="radio" name="slide_changer2" value="product_list_third" id="product_list_third" />
+                    <label class="radio" for="product_list_third">  
+                    </label>
+                    <div id="slider-inner2">
+                        <div id="product_list1">
+                            <label for="product_list_third"></label>
+                            <div class="product_box">
+                                <img src="imgs/items_pump.png" alt="">
+                                <p>Фильтровальная установка Bestway</p>
+                            </div>
+                            <div class="product_box">
+                                <img src="imgs/items_lprojector.png" alt="">
+                                <p>Прожектор под плитку с оправой из ABS-пластика</p>
+                            </div>
+                            <div class="product_box">
+                                <img src="imgs/items_pump.png" alt="">
+                                <p>Фильтровальная установка Bestway</p>
+                            </div>
+                            <div class="product_box">
+                                <img src="imgs/items_lprojector.png" alt="">
+                                <p>Прожектор под плитку с оправой из ABS-пластика</p>
+                            </div>
+                            <label for="product_list_second"></label>
+                        </div>
+                        <div id="product_list2">
+                            <label for="product_list_first"></label>
+                            <div class="product_box">
+                                <img src="imgs/items_lprojector.png" alt="">
+                                <p>Прожектор под плитку с оправой из ABS-пластика</p>
+                            </div>
+                            <div class="product_box">
+                                <img src="imgs/items_lprojector.png" alt="">
+                                <p>Прожектор под плитку с оправой из ABS-пластика</p>
+                            </div>
+                            <div class="product_box">
+                                <img src="imgs/items_pump.png" alt="">
+                                <p>Фильтровальная установка Bestway</p>
+                            </div>
+                            <div class="product_box">
+                                <img src="imgs/items_lprojector.png" alt="">
+                                <p>Прожектор под плитку с оправой из ABS-пластика</p>
+                            </div>
+                            <label for="product_list_third"></label>
+                        </div>
+                        <div id="product_list3">
+                            <label for="product_list_second"></label>
+                            <div class="product_box">
+                                <img src="imgs/items_pump.png" alt="">
+                                <p>Фильтровальная установка Bestway</p>
+                            </div>
+                            <div class="product_box">
+                                <img src="imgs/items_pump.png" alt="">
+                                <p>Фильтровальная установка Bestway</p>
+                            </div>
+                            <div class="product_box">
+                                <img src="imgs/items_lprojector.png" alt="">
+                                <p>Прожектор под плитку с оправой из ABS-пластика</p>
+                            </div>
+                            <div class="product_box">
+                                <img src="imgs/items_pump.png" alt="">
+                                <p>Фильтровальная установка Bestway</p>
+                            </div>
+                            <label for="product_list_first"></label>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn_blue">Смотреть все</button>
+            </div>
+        </main>
+        <wave style="position: relative;">
+            <img src="imgs/4_снизу.png" alt="" style="width: 100%">
+            <img src="imgs/4_сверху.png" alt="" style="width: 100%; position: absolute; bottom: 0; left: 0;">
+        </wave>
+        <!-- 5th section -->
+        <main class="section_benefits">
+            <img src="imgs/листья.png">
+            <div class="benefits_word">
+                <h1>что вы получаете?</h1>
+                <img class="wave" src="imgs/волнистая_белая.png">
+            </div>
+            <div class="benefits_list">
+                <div>
+                    <img src="imgs/5_icon1.png" alt="">
+                    <p>Индивидуальное предложение</p>
+                </div>
+                <div>
+                    <img src="imgs/5_icon2.png" alt="">
+                    <p>Комплексная поддержка</p>
+                </div>
+                <div>
+                    <img src="imgs/5_icon3.png" alt="">
+                    <p>Качественные материалы</p>
+                </div>
+            </div>
+        </main>
+        <!-- 6th section -->
+        <main class="section_feedback">
+            <img src="imgs/5_сверху.png" style="width: 100%;">
+            <div class="feedback_word">
+                <h1>остались вопросы?</h1>
+                <img class="wave" src="imgs/волнистая.png">
+                <p>Оставьте заявку и наши специалисты свяжутся с вами в ближайшее время</p>
+            </div>
+            <div class="feedback">
+                <form action="POST" id="feedback">
+                    <input type="text" id="name" placeholder="Имя" name="name" required>
+                    <input type="tel" id="phone" placeholder="Телефон" name="phone" maxlength="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <input class="btn btn_orange" type="submit" value="Отправить">
+                </form>
+            </div>
+        </main>
+
+        <!-- 7th section -->
+        <main class="section_contacts">
+            <div class="contacts">
+                <h1 style="text-align: left;">КонТАКты</h1>
+                <div>
+                    <div>
+                        <img src="imgs/contacts_map.png" alt="">
+                        <p>Казахстан, Алматы, Байзакова, 263, 1 этаж, 5 офис</p>
+                    </div>
+                    <div>
+                        <img src="imgs/contacts_phone.png">
+                        <p><a>+7 727 368 83 56,</a> <a>+7 771 964 36 50</a></p>
+                    </div>
+                    <div>
+                        <img src="imgs/@.png">
+                        <p>imfo@pool.kz</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </container>
+</body>
+</html>

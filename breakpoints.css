@@ -1,0 +1,199 @@
+@media (max-width: 1480px){
+    .price_form div input{
+        width: 25%;
+    }
+}
+@media (max-width: 1250px){
+    #qw{
+        flex-direction: column;
+    }
+    .form_container{
+        width: 100%;
+        margin: 80px 0 137px;
+        display: flex;
+        justify-content: center;
+    }
+    #pool_img{
+        position: relative;
+        left: unset;
+        width: 100%;
+        background-size: cover;
+        
+    }
+    #spool_price{
+        float: unset;
+        clear: both;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+    .section_contacts {
+        padding-top: 40px;
+    }
+}
+@media (max-width: 1000px){
+    body{
+        font-size: 16px;
+    }
+    #slider-inner div label:nth-of-type(1){
+        left: 35%;
+        transition: left 1s ease;
+    }
+    #slider-inner div label:nth-of-type(2){
+        right: 35%;
+        transition: right 1s ease;
+    }
+    .section_header .header{
+        display: block;
+    }
+    .header > div {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .header_banner {
+        width: 80%;
+        background-color:rgba(104, 104, 104, 0.281);
+        color: #fff;
+        padding: 0 20px 20px;
+    }
+    .section_contacts {
+        padding-top: 35px;
+    }
+    .contacts {
+        width: 40%;
+        margin: 40px 0 40px 13%;
+        padding: 40px 40px 50px 40px;
+    }
+}
+@media (max-width: 775px){
+
+    body{
+        font-size: 14px;
+    }
+    #product_slider{
+        height: 400px;
+    }
+    #slider-inner2{
+        height: 400px;
+    }
+
+    .section_header > img:first-of-type {
+        bottom: -15px;
+    }
+    #slider-inner div label:nth-of-type(1){
+        left: 20%;
+        transition: left 1s ease;
+    }
+    #slider-inner div label:nth-of-type(2){
+        right: 20%;
+        transition: right 1s ease;
+    }
+
+    #spool_price{
+        float: unset;
+        clear: both;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        width: 100%;
+    }
+    #slider-inner2 > div {
+        height: 50%;
+    }
+    #slider-inner2 > div > div {
+        height: 100%;
+        width: 40%;
+        margin: 0 0.7%;
+    }
+    #feedback {
+        width: 80%;
+        transition: width 1s ease-in-out;
+    }
+    .section_contacts {
+        padding-top: 30px;
+        background-position: 55%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: background-position 1.5s ease-in-out;
+    }
+    .contacts {
+        margin: 35px 0 35px 12%;
+        padding: 35px 35px 45px 35px;
+    }
+    
+}
+@media (max-width: 625px){
+    .contacts div > div > p > a {
+        display: block;
+    }
+}
+
+@media (max-width: 520px){
+    body{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    .btn{
+        font-size: 12px;
+    }
+    #slider-inner2 > div > div > p {
+        font-size: 12px;
+    }
+    .price_form > div > label{
+        width: 40%;
+        margin: 0;
+        padding-right: 0;
+        font-size: 12px;
+    }
+    .price_form > div > select{
+        margin: 0;
+        padding: 0 0 0 10px;
+        font-size: 12px;
+        width: 40%;
+    }
+    .price_form > div > input{
+        margin: 0;
+        padding: 0 0 0 10px;
+        font-size: 12px;
+        width: 30%;
+    }
+    .section_benefits > img {
+        top: -15%;
+        transition: top 1.5s ease-in-out;
+    }
+    .benefits_list {
+        display: block;
+    }
+    .benefits_list > div {
+        width: 100%;
+        margin-top: 60px;
+        transition: margin-top 1.2s ease-out;
+    }
+    .benefits_list > div > img {
+        margin-bottom: 10px;
+        transition: margin-bottom 1.2s ease-out;
+    }
+    #feedback {
+        width: 100%;
+        transition: width 1s ease-in-out;
+    }
+    .section_contacts {
+        padding-top: 25px;
+        background-position: 60%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: background-position 1.5s ease-in-out;
+    }
+    .contacts {
+        margin: 30px 0 30px 11%;
+        padding: 30px 30px 40px 30px;
+    }
+}
+
+@media (max-width: 324px){
+    body{
+        font-size: 11px;
+    }
+}
